@@ -40,7 +40,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const Spacer(),
-              // Here, default theme colors are used for activeBgColor, activeFgColor, inactiveBgColor and inactiveFgColor
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ToggleSwitch(
