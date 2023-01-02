@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  'Scanning Hand',
+                  'Input Language',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 18,
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: ToggleSwitch(
                   initialLabelIndex: 0,
                   totalSwitches: 1,
-                  labels: const ['Chinese'],
+                  labels: const ['English'],
                   onToggle: (index) {},
                 ),
               ),
@@ -90,9 +90,6 @@ class _HomeScreenState extends State<HomeScreen> {
           const Divider(
             color: Colors.black,
             height: 20,
-          ),
-          SizedBox(
-            height: MediaQuery.of(context).size.height * 0.001,
           ),
           Row(
             children: [
