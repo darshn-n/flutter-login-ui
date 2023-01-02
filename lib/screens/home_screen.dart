@@ -25,45 +25,12 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/img6.jpg",
           ),
-          
           Row(
             children: [
               const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  'Scanning Hand',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 18,
-                    fontWeight: FontWeight.normal,
-                  ),
-                ),
-              ),
-              const Spacer(),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ToggleSwitch(
-                  initialLabelIndex: 0,
-                  totalSwitches: 2,
-                  labels: const ['Left', 'Right'],
-                  onToggle: (index) {},
-                ),
-              ),
-            ],
-          ),
-          const Divider(
-            color: Colors.black,
-            height: 20,
-          ),
-          SizedBox(
-            height: MediaQuery.of(context).size.height * 0.001,
-          ),
-          Row(
-            children: [
-              const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text(
-                  'Input Language',
+                  'Scanning Language',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 18,

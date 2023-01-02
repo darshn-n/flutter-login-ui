@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Venono',
       theme: ThemeData(
-        
         primarySwatch: Colors.red,
       ),
       home: const LoginScreen(),
