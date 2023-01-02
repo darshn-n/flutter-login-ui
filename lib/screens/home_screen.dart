@@ -23,11 +23,9 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         children: [
           Image.asset(
-            "assets/img6.png",
+            "assets/img6.jpg",
           ),
-          SizedBox(
-            height: MediaQuery.of(context).size.height * 0.001,
-          ),
+          
           Row(
             children: [
               const Padding(
